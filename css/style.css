@@ -1,0 +1,164 @@
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  margin: 0;
+  background-color: #242424;
+  font-family: "Lato", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+button {
+  font-weight: 600;
+  font-size: 14px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 5%;
+}
+
+.logo {
+  margin-right: auto;
+  cursor: pointer;
+  height: 60px;
+  width: auto;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: red;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgb(0, 136, 169);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  outline: transparent;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.75);
+}
+
+.order {
+  padding-left: 50px;
+}
+
+.hero_image {
+  background-image: url(/images/hero.jpg);
+  background-repeat: none;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.hero_text {
+  text-align: left;
+  position: absolute;
+  left: 5%;
+  top: 65%;
+  color: white;
+}
+
+.hero_text h1 {
+  font-size: 80px;
+  font: 900;
+}
+
+.hero_text p {
+  font-size: 25px;
+  font: 600;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.hero_text button {
+  margin-left: 10px;
+  font: 400;
+}
+.block {
+  color: whitesmoke;
+  text-align: center;
+  background: #212121;
+  margin: 40px 20px 20px 20px;
+  padding: 20px;
+  width: 30%;
+  height: 50vh;
+  float: left;
+  border-radius: 20px;
+}
+
+.block img {
+  border-radius: 15px;
+  width: 80%;
+  height: auto;
+  opacity: 1;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.block img:hover {
+  opacity: 0.4;
+  border-radius: 15px;
+  width: 80%;
+  height: auto;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 450px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+h3 {
+  font: 900;
+  font-size: 50px;
+  text-align: center;
+  margin: 30px;
+  color: whitesmoke;
+}
+
+.text_box1 img {
+  float: left;
+}
+
+.text_box2 img {
+  float: right;
+}
