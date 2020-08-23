@@ -1,5 +1,6 @@
 /*Fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Special+Elite");
 
 body {
   margin: 0;
@@ -50,7 +51,7 @@ header {
 }
 
 .nav_links li a:hover {
-  color: #e0ac1c;
+  color: #f3bd27;
 }
 
 button {
@@ -163,7 +164,9 @@ h3 {
   -webkit-box-shadow: -15px 17px 21px -6px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -15px 17px 21px -6px rgba(0, 0, 0, 0.75);
   box-shadow: -15px 17px 21px -6px rgba(0, 0, 0, 0.75);
-  
+  display: flex;
+
+  align-items: center;
 }
 
 .text_box2 img {
@@ -176,14 +179,13 @@ h3 {
   box-shadow: 22px 22px 21px -6px rgba(0, 0, 0, 0.75);
 }
 
-
-.text_box1 p{
+.text_box1 p {
   color: whitesmoke;
   font-size: 3vw;
   padding-top: 70px;
 }
 
-.text_box2 p{
+.text_box2 p {
   color: whitesmoke;
 }
 
@@ -203,12 +205,13 @@ footer {
 }
 
 .footer-distributed {
-  background-color: #2c292f;
+  font-family: "Lato", sans-serif;
+  background-color: #191919;
   box-sizing: border-box;
   width: 100%;
   text-align: left;
   font: bold 16px sans-serif;
-  padding: 50px 50px 60px 50px;
+  padding: 40px 50px 30px 50px;
   margin-top: 80px;
 }
 
@@ -226,7 +229,7 @@ footer {
 }
 
 .footer-distributed h3 {
-  color: #ffffff;
+  color: whitesmoke;
   font: normal 36px "Cookie", cursive;
   margin: 0;
 }
@@ -244,7 +247,7 @@ footer {
 /* Footer links */
 
 .footer-distributed .footer-links {
-  color: #ffffff;
+  color: whitesmoke;
   margin: 20px 0 12px;
 }
 
@@ -270,7 +273,7 @@ footer {
 
 .footer-distributed .footer-center i {
   background-color: #33383b;
-  color: #ffffff;
+  color: whitesmoke;
   font-size: 25px;
   width: 38px;
   height: 38px;
@@ -288,7 +291,7 @@ footer {
 
 .footer-distributed .footer-center p {
   display: inline-block;
-  color: #ffffff;
+  color: whitesmoke;
   vertical-align: middle;
   margin: 0;
 }
@@ -301,7 +304,7 @@ footer {
 }
 
 .footer-distributed .footer-center p a {
-  color: #e0ac1c;
+  color: #f3bd27;
   text-decoration: none;
 }
 
@@ -321,7 +324,7 @@ footer {
 
 .footer-distributed .footer-company-about span {
   display: block;
-  color: #ffffff;
+  color: whitesmoke;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -336,11 +339,11 @@ footer {
   width: 35px;
   height: 35px;
   cursor: pointer;
-  background-color: #33383b;
+  background: none;
   border-radius: 2px;
 
   font-size: 20px;
-  color: #ffffff;
+  color: whitesmoke;
   text-align: center;
   line-height: 35px;
 
@@ -364,4 +367,38 @@ footer {
   .footer-distributed .footer-center i {
     margin-left: 0;
   }
+}
+
+blockquote {
+  font-family: "Special Elite", cursive;
+  color: whitesmoke;
+  font-weight: 100;
+  font-size: 2vw;
+  max-width: 600px;
+  line-height: 1.4;
+  position: relative;
+  margin: 100px;
+  padding: 0.5rem;
+  float: right;
+}
+
+blockquote:before,
+blockquote:after {
+  position: absolute;
+  color: #f1efe6;
+  font-size: 8rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+blockquote:before {
+  content: "“";
+  left: -5rem;
+  top: -2rem;
+}
+
+blockquote:after {
+  content: "”";
+  right: -5rem;
+  bottom: 1rem;
 }
